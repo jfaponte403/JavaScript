@@ -1,6 +1,8 @@
-for(j=0; j<50; j++){
-    for(i=0; i<(j+1); i++){
+for(j=0; j<30; j++){
+    for(i=0; i<(20); i++){
         process.stdout.write("° ");
+        if(i === 19){
+            process.stdout.write("\n");
+        }
     } 
-    process.stdout.write("\n");
 }  
